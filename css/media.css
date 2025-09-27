@@ -289,75 +289,115 @@
 /*? Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   /*? Navbar Responsive design start */
-  .navbar-toggler i {
-    color: green;
-    font-size: 30px;
-  }
-  .navbar-toggler i:active {
-    color: red;
-  }
+  /*? Navbar Responsive design start */
+
+.navbar-toggler {
+  border: none;
+  background: #007456 ;
+  border-radius: 8px;
+  padding: 8px 12px;
+  /* transition: background 0.3s, box-shadow 0.3s; */
+  box-shadow: 0 2px 8px rgba(0,116,86,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-toggler i {
+  color: #fff;
+  font-size: 28px;
+  transition: color 0.3s;
+}
+
   .nav-link {
-    color: red;
-    margin: 0;
-    font-weight: bold;
+	width: 100%;
+	color: #FFFFFF !important;
+	margin: 5px 0;
+	font-weight: 600;
+	font-size: 16px;
+	border-radius: 8px;
+   background: #fa8c00;
+	padding: 14px 24px !important;
+
+}
+
+  
+  .navbar-toggler:focus {
+    background: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(250,140,0,0.12);
+    outline: none;
+  }
+  .navbar-toggler:active i,
+  .navbar-toggler:focus i {
+    color: #fa8c00;
   }
   /*? Navbar Responsive design End */
 
   /* ?Banner Part Responsive Start  */
+  /* ?Banner Part Responsive Start  */
   .bannerContent {
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
   }
   .textLeft {
-    width: auto;
+    width: 100%;
+    max-width: 95vw;
+    margin: 0 auto;
     text-align: center;
   }
   .textLeft h1 {
-    font-size: 37px;
-    line-height: 51px;
-    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 600;
+    margin-bottom: 12px;
   }
   .textLeft h6 {
     font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 18px;
   }
-  .textLeft a.button {
-    display: block;
-    margin-bottom: 10px;
+  /* বাটন দুটি পাশাপাশি রাখতে */
+  .textLeft .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 18px;
+  }
+  .textLeft .button {
+    display: inline-block;
+    margin-right: 0;
+    min-width: 120px;
+    font-size: 15px;
+    padding: 12px 0;
+    border-radius: 8px;
+    text-align: center;
   }
   .inputBox {
-    padding: 16px 0;
+    padding: 18px 0;
   }
   .formControl {
-    height: 52px;
+    height: 48px;
+    font-size: 15px;
   }
   .searchDiv {
-    width: 40px;
-    height: 40px;
-    right: 12px;
-  }
-  .forPosition {
-    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .imgPadding {
-    margin-top: 89px;
-  }
-  .bannerContent {
-    padding-bottom: 47px;
+    margin-top: 32px;
   }
   .imgOverlay {
-    top: 27%;
-    padding: 10px 23px;
-    width: 172px;
-  }
-
-  .imgOverlaySecond {
-    position: absolute;
-    top: 65%;
-    right: 0;
+    width: 150px;
+    padding: 10px 10px;
+    top: 20%;
   }
   .imgOverlay h5 {
-    font-size: 10px;
-    font-weight: 600;
-    color: #242b36;
+    font-size: 9px;
   }
 
   /* ?Banner Part Responsive End  */
