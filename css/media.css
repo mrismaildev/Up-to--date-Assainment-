@@ -758,9 +758,13 @@ grid-template-columns: repeat(2,1fr);
   .LatestJob {
     padding-top: 47px;
   }
+
   .jobItem {
-    width: 506px;
+    width: 100%;
+    max-width: 500px; /* চাইলে এটা রাখুন, না হলে শুধু width: 100% রাখুন */
+    margin: 0 auto;   /* সেন্টারে রাখতে */
   }
+
 
   /*? Letest Job part Responsive End  */
 
@@ -1029,18 +1033,33 @@ grid-template-columns: repeat(2,1fr);
     font-size: 39px;
     font-weight: bold;
   }
- .serviceItem {
-	width: 308px;
-	margin: 0px 0px;
-}
+  .serviceItem {
+    width: 100%;
+    max-width: 400px; /* চাইলে, না হলে শুধু width: 100% রাখুন */
+    margin: 0 auto 20px auto; /* সেন্টারে রাখতে ও নিচে স্পেস */
+  }
   /*? Popular Categories Part Responsive Star */
   .LatestJob {
-    padding-top: 47px;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
   }
- .jobItem {
-	width: 298px;
-  padding: 32px 14px;
-}
+  .jobItem {
+    width: 100%;
+    max-width: 98vw;
+    padding: 20px 8px;
+    margin: 0 auto 20px auto;
+    box-sizing: border-box;
+  }
+  .jobItem h4,
+  .jobText h4,
+  .jobLevel,
+  .jobMony h4,
+  .jobType,
+  .jobPosted h5,
+  .jobDitails p {
+    font-size: 15px;
+  }
   /*? Letest Job part Responsive End  */
 
   /* ?Hiring Best  Part Responsive Start  */
@@ -1141,47 +1160,180 @@ grid-template-columns: repeat(2,1fr);
   /* ?Service By Category Responsive End  */
 
   /* ?TrendingPart Part Responsive Start  */
-  .nextSecond {
-
-	width: 40px;
-	height: 40px;
-	right: 0px;
-}
-  .nextSecond {
-	font-size: 19px;
-}
-.prevSeond {
-	
-	width: 40px;
-	height: 40px;
-	
-	left: 0px;
-	
-}
-.prevSeond {
-	font-size: 19px;
-}
-.servicetext h3 {
-	font-size: 18px;
-	
-}
-
   
+ 
+ 
+
   /* ?TrendingPart Part Responsive Start  */
-  /* ?Banner Part Responsive Start  */
-  .lefside {
-    justify-content: center;
+  .trendingTitle {
+    padding: 40px 0 20px 0;
+    text-align: center;
   }
-  .forPadding {
-    padding-bottom: 67px;
+  .trendingTitle h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
   }
+  .trendingPart {
+    margin-top: 40px;
+    padding: 0 0 20px 0;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .serviceSlick {
+    padding-bottom: 40px;
+    font-size: 14px;
+    font-family: inherit;
+  }
+  .trendingPart .serviceItem h4,
+  .trendingPart .serviceItem h3 {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .trendingPart .serviceItem p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .prevSeond,
+  .nextSecond {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    top: 90%;
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .prevSeond {
+    left: 30%;
+    right: auto;
+  }
+  .nextSecond {
+    right: 30%;
+    left: auto;
+  }
+  /* ?TrendingPart Part Responsive End  */
+
+  /* ?Choose plan Part Responsive Start  */
+.choosePlanPart {
+    padding: 24px 0 24px 0;
+  }
+  .planItem {
+    width: 100%;
+    max-width: 98vw;
+    padding: 16px 8px;
+    margin-top: 24px;
+    box-sizing: border-box;
+  }
+  .planHead h4 {
+    font-size: 16px;
+  }
+  .planHead h5,
+  .jero {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .planContent p,
+  .planInclude h4,
+  .planInclude ul li {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .planInclude i {
+    font-size: 16px;
+  }
+
+  /* ?Choose plan Part Responsive End  */
+/*?Work part start responsive  */
+   .workStart {
+    max-width: 98vw;
+    margin: 32px 1vw;
+    padding: 24px 8px;
+    border-radius: 14px;
+  }
+  .startBody h4 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .startBody p {
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+  .projectBtn {
+    margin-top: 18px;
+  }
+  .startBtn {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+  /*? Top Reted Frilancer part start responsive  */
+
+
   .profileCard {
     width: 100%;
-    margin-top: 20px;
+    max-width: 98vw;
+    padding: 16px 8px;
+    border-radius: 8px;
+    margin: 0 auto 18px auto;
+    box-sizing: border-box;
   }
-  /* ?Banner Part Responsive End  */
+  .profileHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .inProfile h3 {
+    font-size: 15px;
+  }
+  .vettedPro {
+    font-size: 11px;
+    padding: 2px 4px;
+  }
+  .vettedPro::after {
+    right: 60px;
+    height: 14px;
+  }
+  .skills {
+    margin-top: 12px;
+    gap: 5px;
+  }
+  .skills span {
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 6px;
+  }
+  .flexInfo {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding-top: 12px;
+  }
+  .flexInfo h6,
+  .flexInfo span {
+    font-size: 12px;
+  }
+  .portfolioRating,
+  .portfolioRating span {
+    font-size: 11px;
+  }
+  .portfolioRating i {
+    font-size: 13px;
+  }
+  .jobTitle p {
+    font-size: 12px;
+    padding-top: 2px;
+  }
+  .viewDitles {
+    margin-top: 12px;
+  }
 
-  /* ?Banner Part Responsive Start  */
+    /*? Top Reted Frilancer part End responsive  */
+
+
+  /* ? Part Responsive Start  */
   .workStart {
     padding: 47px 4px;
     border-radius: 24px;
@@ -1189,9 +1341,9 @@ grid-template-columns: repeat(2,1fr);
   .startBody h4 {
     font-size: 29px;
   }
-  /* ?Banner Part Responsive End  */
+  /* ? Part Responsive End  */
 
-  /* ?Banner Part Responsive Start  */
+  /* ? Part Responsive Start  */
   .footerCol {
     text-align: center;
   }
