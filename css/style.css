@@ -99,9 +99,6 @@ a.mCb i {
     rgba(179, 255, 233, 1) 110%
   );
 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .textLeft {
   width: 686px;
