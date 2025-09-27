@@ -4,18 +4,18 @@
 /*? Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   /*? Navbar Responsive design start */
-  .nav-link { 
+  .nav-link {
     margin: 0;
     font-size: 14px;
   }
   a.mcbFirst {
-	font-size: 12px;
-	padding: 6px 12px;
-} 
- a.mCb {
-	font-size: 12px;
-	padding: 6px 12px;
-}
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+  a.mCb {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
   /*? Navbar Responsive design End */
 
   /* ?Banner Part Responsive Start  */
@@ -81,10 +81,9 @@
   }
 
   .CategoriesText h3 {
-	font-size: 30px;
+    font-size: 30px;
+  }
 
-}
- 
   .CategoriesTextRight {
     margin-top: 31px;
   }
@@ -93,10 +92,10 @@
     font-size: 12px;
     line-height: 20px;
   }
-.listCatagory h4 {
-	font-size: 13px;
-	line-height: 21px;
-}
+  .listCatagory h4 {
+    font-size: 13px;
+    line-height: 21px;
+  }
 
   /* ?Poppular Service Item Responsive Part start */
   #servicePart {
@@ -113,25 +112,26 @@
     font-weight: bold;
   }
   .serviceItem {
-    width:307px;
+    width: 307px;
     margin-top: 20px;
   }
   .servicetext h3 {
     font-size: 13px;
     line-height: 19px;
   }
-  .review, span, a {
-	font-size: 12px;
-	color: #3b4759;
-}
-.profileLeft h3, h4 {
-	font-size: 14px;
-	
-}
-.profileLeft  h4 {
-	font-size: 9px;
-
-}
+  .review,
+  span,
+  a {
+    font-size: 12px;
+    color: #3b4759;
+  }
+  .profileLeft h3,
+  h4 {
+    font-size: 14px;
+  }
+  .profileLeft h4 {
+    font-size: 9px;
+  }
 
   /* ?Service Item Responsive Part End */
 
@@ -141,24 +141,18 @@
     padding-top: 47px;
   }
   .jobItem {
-	width: 297px;
-}
-.jobItem h4 {
-	font-size: 18px;
-}
-
+    width: 297px;
+  }
+  .jobItem h4 {
+    font-size: 18px;
+  }
 
   /*? Letest Job part Responsive End  */
 
-
-
-
-
   /* ?Hiring Best  Part Responsive Start  */
-    .backOverlay {
-	padding: 210px 0;
-
-}
+  .backOverlay {
+    padding: 210px 0;
+  }
   .hireSection {
     margin: 57px 0;
   }
@@ -172,7 +166,7 @@
   .hireRight {
     margin-top: 33px;
   }
-  .backOverlay{
+  .backOverlay {
     width: auto;
   }
   /* ?Hiring Best  Part Responsive End  */
@@ -199,31 +193,30 @@
   }
   /* ?Freelancer thought Responsive Part End */
 
-
   /* ?Advertise Part Responsive  Start  */
   .advertiseContent {
     margin-top: 20px;
   }
   .forMargin {
-	margin-top: 100px;
-}
+    margin-top: 100px;
+  }
   /* ?Advertise Part Responsive  End  */
   /* ?Trending Service Responsive  */
-  
-.nextSecond {
-	width: 30px;
-	height: 30px;
-	right: 0;
-	font-size: 16px;
-	transition: 0.5s;
-}  
-.prevSeond {
-	width: 30px;
-	height: 30px;
-	right: 0;
-	font-size: 16px;
-	transition: 0.5s;
-}
+
+  .nextSecond {
+    width: 30px;
+    height: 30px;
+    right: 0;
+    font-size: 16px;
+    transition: 0.5s;
+  }
+  .prevSeond {
+    width: 30px;
+    height: 30px;
+    right: 0;
+    font-size: 16px;
+    transition: 0.5s;
+  }
   /* ?Trending Service Responsive  */
 
   /* ?Choose Plan Part Responsive Start  */
@@ -237,77 +230,65 @@
 
   /* ?Choose Plan  Part Responsive End  */
   /*?Browsr By Catargory  start*/
-.serviceListItem {
-	width: 303px;
-
-}
-  .thirdPriv{
+  .serviceListItem {
+    width: 303px;
+  }
+  .thirdPriv {
     top: 50%;
     left: 14px;
-     
   }
-  .thirdNext{
+  .thirdNext {
     top: 50%;
     right: 22px;
-   
   }
   /*?Browsr By Catargory  End*/
 
   /*  ?Top Rated Frilancer Responsive start */
 
   .profileCard {
-	width: 313px;
-}
-.inProfile h3 {
-	font-size: 15px;;
-}
-.flexInfo span {
-	font-size: 13px;
-}
-.vettedPro {
-	font-size: 8px;
-	
-}
-.vettedPro::after {
-	right: 75px;
-}
+    width: 313px;
+  }
+  .inProfile h3 {
+    font-size: 15px;
+  }
+  .flexInfo span {
+    font-size: 13px;
+  }
+  .vettedPro {
+    font-size: 8px;
+  }
+  .vettedPro::after {
+    right: 75px;
+  }
 
   /*  ?Top Rated Frilancer Responsive End */
 
   /*?Start a work Responsive part  */
   .workStart {
-	padding: 103px;
-
+    padding: 103px;
+  }
+  .startBody p {
+    font-size: 15px;
+  }
+  /* ?Footer Responsive Part Start  */
+  .footerBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .subscribeForm input {
+    width: 213px;
+    padding: 12px;
+  }
+  .subscribeForm button {
+    width: 42px;
+    height: 46px;
+  }
+  /* ?Footer Responsive Part End  */
 }
-.startBody p{font-size: 15px
-}
-/* ?Footer Responsive Part Start  */
-.footerBox{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-
-}
-.subscribeForm input {
-	width: 213px;
-	padding: 12px;
-}
-.subscribeForm button {
-	width: 42px;
-	height: 46px;
-}
-/* ?Footer Responsive Part End  */
-
-
-
-}
-
-
-
-
 
 /*? Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
-/*? Navbar Responsive design start */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*? Navbar Responsive design start */
   .navbar-toggler i {
     color: green;
     font-size: 30px;
@@ -351,10 +332,10 @@
   .searchDiv {
     width: 40px;
     height: 40px;
-    right: 12px; 
+    right: 12px;
   }
   .forPosition {
-    font-size: 18px; 
+    font-size: 18px;
   }
   .imgPadding {
     margin-top: 89px;
@@ -385,8 +366,7 @@
   #PopularCategories {
     padding-top: 43px;
   }
-  .forGrid{
-
+  .forGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -414,11 +394,11 @@
     margin-top: 93px;
     padding: 39px 0;
   }
-  .popularServiceGrid{
+  .popularServiceGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
- 
+
   .serviceFilterBtn {
     margin-top: 20px;
   }
@@ -428,32 +408,33 @@
     font-weight: bold;
   }
   .serviceItem {
-   width: 335px;
+    width: 335px;
     margin-top: 20px;
   }
   .servicetext h3 {
     font-size: 13px;
     line-height: 19px;
   }
-  .review, span, a {
-	font-size: 12px;
-	color: #3b4759;
-}
-.profileLeft h3, h4 {
-	font-size: 14px;
-	
-}
-.profileLeft  h4 {
-	font-size: 9px;
-
-}
+  .review,
+  span,
+  a {
+    font-size: 12px;
+    color: #3b4759;
+  }
+  .profileLeft h3,
+  h4 {
+    font-size: 14px;
+  }
+  .profileLeft h4 {
+    font-size: 9px;
+  }
 
   /* ?Service Item Responsive Part End */
 
   /*?Letest Job Part Responsive Star */
-  .letestGridRow{ 
+  .letestGridRow {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .LatestJob {
     padding-top: 47px;
@@ -479,15 +460,15 @@
   .hireRight {
     margin-top: 33px;
   }
-  .backOverlay{
+  .backOverlay {
     width: auto;
   }
   /* ?Hiring Best  Part Responsive End  */
 
   /* ?Freelancer thought Responsive Part Start */
-   .thoughtGrid{
-display: grid;
-grid-template-columns: repeat(2,1fr);
+  .thoughtGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .freelancerThought {
     margin-top: 54px;
@@ -512,7 +493,7 @@ grid-template-columns: repeat(2,1fr);
   /* ?Advertise Part Responsive  Start  */
   .forMargin {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 90px;
   }
   .advertiseContent {
@@ -520,29 +501,29 @@ grid-template-columns: repeat(2,1fr);
   }
   /* ?Advertise Part Responsive  End  */
   /* ?Trending Service Responsive  */
-  
-.nextSecond {
-	width: 30px;
-	height: 30px;
-	top: 31%;
-	right: 0;
-	font-size: 16px;
-	transition: 0.5s;
-}  
-.prevSeond {
-	width: 30px;
-	height: 30px;
-	top: 31%;
-	right: 0;
-	font-size: 16px;
-	transition: 0.5s;
-}
+
+  .nextSecond {
+    width: 30px;
+    height: 30px;
+    top: 31%;
+    right: 0;
+    font-size: 16px;
+    transition: 0.5s;
+  }
+  .prevSeond {
+    width: 30px;
+    height: 30px;
+    top: 31%;
+    right: 0;
+    font-size: 16px;
+    transition: 0.5s;
+  }
   /* ?Trending Service Responsive  */
 
   /* ?Choose Plan Part Responsive Start  */
-  .chooseGrid{
+  .chooseGrid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .choosePlanPart {
     padding: 45px;
@@ -564,59 +545,54 @@ grid-template-columns: repeat(2,1fr);
   /* ?Choose Plan  Part Responsive End  */
   /*?Browsr By Catargory  start*/
 
-  .thirdPriv{
+  .thirdPriv {
     top: 50%;
-     left: -30px;
+    left: -30px;
   }
-  .thirdNext{
+  .thirdNext {
     top: 50%;
-   
   }
   /*?Browsr By Catargory  End*/
 
   /*  ?Top Rated Frilancer Responsive start */
-  .reatingGrid{
+  .reatingGrid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
   }
   .profileCard {
-	width: 100%;
-}
-.inProfile h3 {
-	font-size: 13px;;
-}
-.flexInfo span {
-	font-size: 13px;
-}
+    width: 100%;
+  }
+  .inProfile h3 {
+    font-size: 13px;
+  }
+  .flexInfo span {
+    font-size: 13px;
+  }
 
   /*  ?Top Rated Frilancer Responsive End */
 
   /*?Start a work Responsive part  */
   .workStart {
-	padding: 103px;
-
-}
-.startBody p{font-size: 15px
-}
-/* ?Footer Responsive Part Start  */
-.footerBox{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-
-}
-.subscribeForm input {
-	width: 213px;
-	padding: 12px;
-}
-.subscribeForm button {
-	width: 42px;
-	height: 46px;
-}
-/* ?Footer Responsive Part End  */
-
-
-
+    padding: 103px;
+  }
+  .startBody p {
+    font-size: 15px;
+  }
+  /* ?Footer Responsive Part Start  */
+  .footerBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .subscribeForm input {
+    width: 213px;
+    padding: 12px;
+  }
+  .subscribeForm button {
+    width: 42px;
+    height: 46px;
+  }
+  /* ?Footer Responsive Part End  */
 }
 /*?Start a work Responsive End  */
 /*? Small devices (landscape phones, 576px and up) */
@@ -734,23 +710,24 @@ grid-template-columns: repeat(2,1fr);
     width: 100%;
     margin-top: 20px;
   }
-  
+
   .servicetext h3 {
     font-size: 13px;
     line-height: 19px;
   }
-  .review, span, a {
-	font-size: 12px;
-	color: #3b4759;
-}
-.profileLeft h3, h4 {
-	font-size: 14px;
-	
-}
-.profileLeft  h4 {
-	font-size: 9px;
-
-}
+  .review,
+  span,
+  a {
+    font-size: 12px;
+    color: #3b4759;
+  }
+  .profileLeft h3,
+  h4 {
+    font-size: 14px;
+  }
+  .profileLeft h4 {
+    font-size: 9px;
+  }
 
   /* ?Service Item Responsive Part End */
 
@@ -762,9 +739,8 @@ grid-template-columns: repeat(2,1fr);
   .jobItem {
     width: 100%;
     max-width: 500px; /* চাইলে এটা রাখুন, না হলে শুধু width: 100% রাখুন */
-    margin: 0 auto;   /* সেন্টারে রাখতে */
+    margin: 0 auto; /* সেন্টারে রাখতে */
   }
-
 
   /*? Letest Job part Responsive End  */
 
@@ -783,7 +759,7 @@ grid-template-columns: repeat(2,1fr);
   .hireRight {
     margin-top: 33px;
   }
-  .backOverlay{
+  .backOverlay {
     width: auto;
   }
   /* ?Hiring Best  Part Responsive End  */
@@ -938,9 +914,8 @@ grid-template-columns: repeat(2,1fr);
     padding-top: 30px;
   }
   .formControl {
-	width: 90%;
-
-}
+    width: 90%;
+  }
   .textLeft {
     width: auto;
     text-align: center;
@@ -964,13 +939,13 @@ grid-template-columns: repeat(2,1fr);
     height: 52px;
   }
   .searchDiv {
-	width: 36px;
-	height: 36px;
-	right: 23px;
-}
-.inputBox input::placeholder{
-  font-size: 12px;
-}
+    width: 36px;
+    height: 36px;
+    right: 23px;
+  }
+  .inputBox input::placeholder {
+    font-size: 12px;
+  }
   .forPosition {
     font-size: 18px; /* আইকনও একটু ছোট হবে */
   }
@@ -1078,10 +1053,8 @@ grid-template-columns: repeat(2,1fr);
     margin-top: 33px;
   }
   .backOverlay {
-	
-	width: auto;
-	
-}
+    width: auto;
+  }
   /* ?Hiring Best  Part Responsive End  */
 
   /* ?Freelancer thought Responsive Part Start */
@@ -1160,9 +1133,6 @@ grid-template-columns: repeat(2,1fr);
   /* ?Service By Category Responsive End  */
 
   /* ?TrendingPart Part Responsive Start  */
-  
- 
- 
 
   /* ?TrendingPart Part Responsive Start  */
   .trendingTitle {
@@ -1205,7 +1175,7 @@ grid-template-columns: repeat(2,1fr);
     right: 0;
     top: 90%;
     transform: translateY(0);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   }
   .prevSeond {
     left: 30%;
@@ -1218,7 +1188,7 @@ grid-template-columns: repeat(2,1fr);
   /* ?TrendingPart Part Responsive End  */
 
   /* ?Choose plan Part Responsive Start  */
-.choosePlanPart {
+  .choosePlanPart {
     padding: 24px 0 24px 0;
   }
   .planItem {
@@ -1247,8 +1217,8 @@ grid-template-columns: repeat(2,1fr);
   }
 
   /* ?Choose plan Part Responsive End  */
-/*?Work part start responsive  */
-   .workStart {
+  /*?Work part start responsive  */
+  .workStart {
     max-width: 98vw;
     margin: 32px 1vw;
     padding: 24px 8px;
@@ -1270,7 +1240,12 @@ grid-template-columns: repeat(2,1fr);
     font-size: 14px;
   }
   /*? Top Reted Frilancer part start responsive  */
-
+  .inProfile {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 6px; /* নাম ও ব্যাজের মাঝে গ্যাপ */
+  }
 
   .profileCard {
     width: 100%;
@@ -1281,20 +1256,33 @@ grid-template-columns: repeat(2,1fr);
     box-sizing: border-box;
   }
   .profileHeader {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
   }
   .inProfile h3 {
     font-size: 15px;
+    margin-bottom: 0;
   }
   .vettedPro {
-    font-size: 11px;
+    font-size: 10px;
     padding: 2px 4px;
+    margin-left: 4px;
+    position: relative;
+    z-index: 1;
   }
   .vettedPro::after {
     right: 60px;
     height: 14px;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 16px;
+    background: #a8aeb7;
   }
   .skills {
     margin-top: 12px;
@@ -1330,8 +1318,7 @@ grid-template-columns: repeat(2,1fr);
     margin-top: 12px;
   }
 
-    /*? Top Reted Frilancer part End responsive  */
-
+  /*? Top Reted Frilancer part End responsive  */
 
   /* ? Part Responsive Start  */
   .workStart {
@@ -1347,22 +1334,30 @@ grid-template-columns: repeat(2,1fr);
   .footerCol {
     text-align: center;
   }
+    .footerCol h3 {
+    padding-bottom: 12px;
+    font-size: 18px;
+  }
   .footerBox {
-    padding: 54px 0;
-    border-bottom: 1px solid #414e62;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 32px 0 18px 0;
+    text-align: center;
   }
   .forColor {
     margin: 0;
   }
-  /* ?Banner Part Responsive End  */
+  /* ? Part Responsive End  */
+
   /* ?Footer Bottom Responsive Start  */
-  .footerBottom {
-    grid-template-columns: 1fr; /* সবগুলো ১ কলামে */
+ .footerBottom {
+    grid-template-columns: 1fr;
     text-align: center;
-    justify-items: center;
+    gap: 10px;
+    padding: 18px 0;
   }
   .socials {
-    justify-content: center; /* সোশ্যাল আইকনগুলো সেন্টারে */
+    justify-content: center; /
   }
   .copyRight p {
     font-size: 14px;

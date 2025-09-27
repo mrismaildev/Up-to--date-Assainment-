@@ -779,9 +779,9 @@ h4 {
   font-weight: 500;
   color: #ffffff;
 }
-/* ?Header Part End */
+/* ? Part End */
 
-/* ?Reating Part Start */
+/* ?Top Frilancer Part Start */
 .forPadding {
   padding-bottom: 120px;
 }
@@ -910,9 +910,9 @@ h4 {
   height: 20px;
   transform: rotate(313deg);
 }
-/* ?Header Part End */
+/* ?Top Frilancer Part End */
 
-/* ?Header Part Start */
+/* ?Work Part Start */
 .workStart {
   padding: 141px 353px;
   background: linear-gradient(
@@ -956,9 +956,9 @@ line-height: 24px;
   display: flex;
 }
 
-/* ?Header Part End */
+/* ?Work Part End */
 
-/* ?Header Part Start */
+/* ?Footer Part Start */
 .forColor{
   background-color: rgba(0, 0, 0, 0.96);
   margin-top: 120px;
