@@ -43,6 +43,7 @@ body {
   letter-spacing: 1.5px;
   color: #000000;
 }
+
 .janina{
   display: flex;
   border-radius: 10px;
@@ -100,6 +101,7 @@ a.mCb i {
   );
 
 }
+
 .textLeft {
   width: 686px;
 }
@@ -206,6 +208,7 @@ a.mCb i {
   font-weight: 600;
   color: #242b36;
 }
+
 .tagBtn {
   margin: 10px 10px 0 0;
   border: 1px solid #c4c8ce;
