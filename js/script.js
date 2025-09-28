@@ -5,7 +5,7 @@ var mixer = mixitup(containerEl);
 $('.slickService').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  // autoplay: true,
+  autoplay: true,
   dots:true,
   autoplaySpeed: 2000,
   prevArrow: '<i class="fa-solid fa-angle-left prev"></i>',
@@ -17,36 +17,35 @@ $('.serviceSlick').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
+  dots: true,
   autoplaySpeed: 2000,
   prevArrow: '<i class="fa-solid fa-arrow-left prevSeond"></i>',
   nextArrow: '<i class="fa-solid fa-arrow-right nextSecond"></i>',
-   responsive: [
+  responsive: [
     {
       breakpoint: 990,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
-        
-      }
+        dots: true,
+      },
     },
     {
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
-      }
+        slidesToScroll: 2,
+      },
     },
     {
       breakpoint: 520,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
+        slidesToScroll: 1,
+      },
+    },
   ],
-  
-   
 });
 
 $('.serviceSlickThree').slick({

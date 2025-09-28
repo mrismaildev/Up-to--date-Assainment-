@@ -96,6 +96,7 @@
     line-height: 21px;
   }
 
+
   /* ?Poppular Service Item Responsive Part start */
   #servicePart {
     margin-top: 93px;
@@ -145,6 +146,7 @@
   .jobItem h4 {
     font-size: 18px;
   }
+
 
   /*? Letest Job part Responsive End  */
 
@@ -916,17 +918,12 @@
 /*? Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 320px) and (max-width: 575.98px) {
   /*? Navbar Responsive design start */
-#bannerPart {
-	padding-top: 0;
-}
-
-.navbar-toggler {
+ .navbar-toggler {
   border: none;
   background: #007456 ;
   border-radius: 8px;
   padding: 8px 12px;
   box-shadow: 0 2px 8px rgba(0,116,86,0.08);
-
 }
 .navbar-toggler i {
   color: #fff;
@@ -942,7 +939,6 @@
 	margin: 15px 0px;
 	background: #fa8c00;
 }
-
   .nav-link {
 	width: 100%;
 	color: #FFFFFF !important;
@@ -952,7 +948,6 @@
 	border-radius: 8px;
 	padding: 10px 0px !important;
 }
-
   .navbar-toggler:focus {
     background: #FFFFFF;
     box-shadow: 0 4px 16px rgba(250,140,0,0.12);
@@ -962,14 +957,13 @@
   .navbar-toggler:focus i {
     color: #fa8c00;
   }
-
-
-
   /*? Navbar Responsive design End */
 
 
   /* ?Banner Part Responsive Start  */
-
+  #bannerPart {
+  padding-top: 0;
+ }
   .bannerContent {
     padding-top: 18px;
     padding-bottom: 24px;
@@ -977,7 +971,6 @@
     padding-right: 8px;
     text-align: center;
   }
-
   .formControl {
     width: 100%;
     max-width: 98vw;
@@ -1003,8 +996,10 @@
     line-height: 16px;
     letter-spacing: 0.2px;
   }
-  .textLeft a.button {
+.textLeft a.button {
 	font-size: 12px;
+	padding: 11px 15px;
+
 }
   /* বাটন দুটি পাশাপাশি */
   .textLeft .button-group {
@@ -1073,9 +1068,7 @@
 
   /* ?Banner Part Responsive End  */
 
-  /* ?Banner Part Responsive End  */
-
-  /* ?Popular Categories Part Start  */
+/* ?Popular Categories Part Start  */
   #PopularCategories {
     padding-top: 43px;
   }
@@ -1092,13 +1085,15 @@
   }
   .listCatagory p,
   h5 {
-    font-size: 18px;
-
+    font-size: 12px;
     line-height: 25px;
   }
   .listCatagory h4 {
-    font-size: 22px;
+    font-size: 16px;
   }
+  .listCatagory {
+	text-align: center;
+}
   .categoryBtn{
     margin: 0;
   }
@@ -1109,7 +1104,13 @@
 	justify-content: center;
 	align-items: center;
 }
-
+  /* All service Buttton font size by extra class */
+.editBtn a {
+	color: #fff;
+	font-size: 12px;
+}
+  /* All service Buttton font size by extra class */
+  /* ? Service part responsive start */
   #servicePart {
     margin-top: 93px;
     padding: 39px 0;
@@ -1119,7 +1120,7 @@
   }
   .serviceHead h3 {
     color: #242b36;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
   }
   .serviceItem {
@@ -1137,6 +1138,15 @@
 	font-size: 13px;
 	font-weight: 500;
 }
+
+.serviceFilterBtn button {
+
+	font-size: 12px;
+	color: #414e62;
+}
+
+
+
   /*? Popular Categories Part Responsive Star */
   .LatestJob {
     padding-top: 40px;
@@ -1150,6 +1160,10 @@
     margin: 0 auto 20px auto;
     box-sizing: border-box;
   }
+  .jobBtn {
+	font-size: 12px;
+}
+
   .jobItem h4,
   .jobText h4,
   .jobLevel,
@@ -1171,10 +1185,13 @@
   .hire-left {
     margin-top: 60px;
   }
+
   .hire-left h2 {
-    font-size: 40px;
-    text-align: center;
-    line-height: initial;
+    font-size: 20px;
+  }
+  .hire-left h4 {
+    font-size: 15px;
+    
   }
   .hireRight {
     margin-top: 33px;
@@ -1246,8 +1263,14 @@
     text-align: center;
   }
   .serviceListText h4 {
-    font-size: 16px;
+    font-size: 9px;
   }
+  .CategoriesText h3 {
+	font-size: 15px;
+}
+.categoryBtn a{
+  font-size: 12px;
+}
   .serviceListText {
     position: absolute;
     top: 11px;
@@ -1449,13 +1472,18 @@
     border-radius: 24px;
   }
   .startBody h4 {
-    font-size: 29px;
+    font-size: 18px;
+  }  .startBody p {
+    font-size: 11px;
   }
+  .startBtn a{
+color: #FFFFFF;
+}
   /* ? Part Responsive End  */
 
   /* ? Part Responsive Start  */
   .footerCol {
-    text-align: center;
+    text-align: start;
   }
     .footerCol h3 {
     padding-bottom: 12px;
