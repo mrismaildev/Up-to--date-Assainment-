@@ -303,7 +303,7 @@
   font-size: 28px;
   transition: color 0.3s;
 }
-.janina {
+.menuBOx {
   display: flex;
   justify-content: center;
  text-align: center;
@@ -658,7 +658,7 @@
   font-size: 28px;
   transition: color 0.3s;
 }
-.janina {
+.menuBOx {
   display: flex;
   justify-content: center;
  text-align: center;
@@ -916,6 +916,9 @@
 /*? Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 320px) and (max-width: 575.98px) {
   /*? Navbar Responsive design start */
+#bannerPart {
+	padding-top: 0;
+}
 
 .navbar-toggler {
   border: none;
@@ -927,10 +930,10 @@
 }
 .navbar-toggler i {
   color: #fff;
-  font-size: 28px;
+  font-size: 20px;
   transition: color 0.3s;
 }
-.janina {
+.menuBOx {
   display: flex;
   justify-content: center;
  text-align: center;
