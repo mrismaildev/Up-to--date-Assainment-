@@ -998,7 +998,7 @@
   }
 .textLeft a.button {
 	font-size: 12px;
-	padding: 11px 15px;
+	padding: 8px 11px;
 
 }
   /* বাটন দুটি পাশাপাশি */
@@ -1129,20 +1129,33 @@
     margin: 0 auto 20px auto; /
   }
  .servicetext h3 {
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 25px;
+  color: #414e62;
+} 
+.servicetext h4 {
+	font-size: 15px;
+  color: #414e62;
 }
 
-.profileLeft h4,h3 {
+.profileLeft h4,
+ .profileLeft h3 {
 	color: #414e62;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 500;
+}
+.profileLeft h4 span{
+  font-size: 12px;
 }
 
 .serviceFilterBtn button {
 
 	font-size: 12px;
 	color: #414e62;
+}
+.review, span, a {
+	font-size: 12px;
+	color: #3b4759;
 }
 
 
@@ -1172,6 +1185,7 @@
   .jobPosted h5,
   .jobDitails p {
     font-size: 15px;
+    padding-top: 0;
   }
   .serviceFilterBtn button {
 	margin: 4px auto;
