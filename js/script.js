@@ -5,11 +5,13 @@ var mixer = mixitup(containerEl);
 $('.slickService').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: true,
+  // autoplay: true,
+  dots:true,
   autoplaySpeed: 2000,
   prevArrow: '<i class="fa-solid fa-angle-left prev"></i>',
   nextArrow: '<i class="fa-solid fa-angle-right next"></i>',
 });
+
 
 $('.serviceSlick').slick({
   slidesToShow: 3,
@@ -81,7 +83,7 @@ $('.serviceSlickThree').slick({
 });
 
 AOS.init({
-  offset: 400,
+  offset: 300,
   duration: 1000,
 
 }

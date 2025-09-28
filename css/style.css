@@ -410,6 +410,29 @@ h4 {
 .editBtn a{
 color: #fff;
 }
+/*? castom dots start */
+.slick-dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  column-gap: 8px;
+  background: red;
+  font-size: 0;
+}
+.slick-dots li button{
+color: #FFEFDA;
+width: 8px;
+height: 8px;
+border: transparent;
+border-radius: 50%;
+
+}
+
+/*? castom dots start */
 
 
 /* ?Service Part End */
