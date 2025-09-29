@@ -30,6 +30,7 @@ li {
 }
 body {
   font-family: 'Poppins', sans-serif;
+  : hidden;
 }
 /* ?All Common CSS End  */
 
@@ -80,6 +81,9 @@ a.mCb i {
 /* ?Naveber Part End */
 
 /* ?Banner Part Start */
+.bannerContent{
+ 
+}
 #bannerPart {
  
   background: linear-gradient(
@@ -92,7 +96,8 @@ a.mCb i {
 }
 
 .textLeft {
-  width: 686px;
+  width: 100%;
+  max-width: 686px;
 }
 .textLeft h1 {
   width: 100%;
@@ -169,7 +174,7 @@ a.mCb i {
   cursor: pointer;
 }
 .bannerContent {
-  padding-bottom:120px;
+  padding:120px 0;
 }
 .imgPadding {
   position: relative;
@@ -436,19 +441,20 @@ background-color: #FA8C00;
 
 /*? castom dots start */
 
-
 /* ?Service Part End */
 
 /* ?Latest Job Part Start */
 .LatestJob {
   padding-top: 120px;
 }
+
 .jobItem {
   width: 424px;
   padding: 32px 24px;
   background-color: #ffffff;
   border: 1px solid rgba(27, 33, 41, 0.1);
   border-radius: 16px;
+  
 }
 .jobItem h4 {
   font-size: 20px;
@@ -514,6 +520,7 @@ background-color: #FA8C00;
   font-size: 14px;
   font-weight: 600;
 }
+
 /* ?Latest Job Part End */
 
 /* ?Hiring Part Start */
@@ -580,13 +587,11 @@ background-color: #FA8C00;
 .hireRight {
   margin-top: 126px;
 }
+
 /* ?Hiring Part End */
 
 /* ?Freelancer thought */
-.freelancerThought {
-  margin-top: 220px;
-  
-}
+
 .resPonImg{
 position: relative;
 }
@@ -651,6 +656,7 @@ position: relative;
   margin-top: 220px;
 }
 /* ?trending Part End */
+
 .trendingTitle {
   padding: 120px 0 40px 0;
 }

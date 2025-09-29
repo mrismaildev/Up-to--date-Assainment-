@@ -17,7 +17,6 @@ $('.serviceSlick').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  dots: true,
   autoplaySpeed: 2000,
   prevArrow: '<i class="fa-solid fa-arrow-left prevSeond"></i>',
   nextArrow: '<i class="fa-solid fa-arrow-right nextSecond"></i>',
@@ -28,7 +27,7 @@ $('.serviceSlick').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
-        dots: true,
+        dots: false,
       },
     },
     {
