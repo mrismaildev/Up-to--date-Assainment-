@@ -1,11 +1,4 @@
-/*? Extra large devices (large desktops, 1200px and up) */
- /* @media (min-width: 1200px) { 
 
-  
- 
-} */
-
-  
 
 /*? Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -25,51 +18,65 @@
   /*? Navbar Responsive design End */
 
   /* ?Banner Part Responsive Start  */
+
   .bannerContent {
     padding-top: 30px;
+    padding-bottom: 47px;
+    overflow: hidden; /* স্ক্রল আটকাতে */
   }
+
   .textLeft {
-    width: auto;
+    width: 100%; /* auto এর বদলে full width */
     text-align: center;
+    padding: 0 15px; /* কিছু padding দিলে overflow কমে */
+    box-sizing: border-box;
   }
+
   .textLeft h1 {
     font-size: 40px;
     line-height: 51px;
     font-weight: bold;
+    word-wrap: break-word;
   }
+
   .textLeft h6 {
     font-size: 14px;
   }
+
   .textLeft a.button {
     display: inline-block;
     margin-bottom: 10px;
   }
+
   .inputBox {
     padding: 16px 0;
   }
 
-
   .imgPadding {
     margin-top: 89px;
   }
-  .bannerContent {
-    padding-bottom: 47px;
-  }
+
   .imgOverlay {
+    position: absolute;
     top: 27%;
     padding: 10px 23px;
     width: 172px;
+    max-width: 100%; /* overflow আটকাতে */
+    box-sizing: border-box;
   }
 
   .imgOverlaySecond {
     position: absolute;
     top: 65%;
     right: 0;
+    max-width: 100%;
   }
+
   .imgOverlay h5 {
     font-size: 10px;
     font-weight: 600;
     color: #242b36;
+    word-wrap: break-word;
   }
 
   /* ?Banner Part Responsive End  */
@@ -290,49 +297,56 @@
 /*? Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-/*? Navbar Responsive design start */
-
 .navbar-toggler {
   border: none;
-  background: #007456 ;
+  background-color: #007456;
   border-radius: 8px;
-  padding: 8px 12px;
-  box-shadow: 0 2px 8px rgba(0,116,86,0.08);
-
+  padding: 8px 10px;
+  box-shadow: 0 2px 6px rgba(0, 116, 86, 0.1);
 }
+
 .navbar-toggler i {
-  color: #fff;
-  font-size: 28px;
-  transition: color 0.3s;
-}
-.menuBOx {
-  display: flex;
-  justify-content: center;
- text-align: center;
-	border-radius: 10px;
-	padding: 0px 0px;
-	margin: 15px 0px;
-	background: #fa8c00;
+  color: #ffffff;
+  font-size: 20px;
 }
 
-  .nav-link {
-	width: 100%;
-	color: #FFFFFF !important;
-	margin: 5px 0;
-	font-weight: 600;
-	font-size: 16px;
-	border-radius: 8px;
-	padding: 10px 0px !important;
+.navbar-toggler:focus {
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px rgba(250, 140, 0, 0.15);
+  outline: none;
 }
 
-  .navbar-toggler:focus {
-    background: #FFFFFF;
-    box-shadow: 0 4px 16px rgba(250,140,0,0.12);
-    outline: none;
+.navbar-toggler:active i,
+.navbar-toggler:focus i {
+  color: #fa8c00;
+}
+
+  .navbar-collapse {
+    text-align: center;
+    padding-top: 10px;
   }
-  .navbar-toggler:active i,
-  .navbar-toggler:focus i {
-    color: #fa8c00;
+
+  .navbar-nav {
+    background-color: #fa8c00;
+    border-radius: 12px;
+    margin: 20px 0 !important;
+    padding: 10px 0;
+  }
+
+.nav-link {
+  display: block;
+  width: 100%;
+  color: #ffffff !important;
+  margin: 4px 0;
+  font-weight: 600;
+  font-size: 15px; 
+  border-radius: 10px;
+  padding: 10px 0 !important; 
+  transition: background-color 0.3s ease;
+}
+
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
   }
 
 
@@ -640,57 +654,178 @@
   }
   /* ?Footer Responsive Part End  */
 }
-/*?Start a work Responsive End  */
+
 /*? Small devices (landscape phones, 576px and up) */
 @media (min-width: 575px) and (max-width: 767.98px) {
-   /*? Navbar Responsive design start */
-
-/*? Navbar Responsive design start */
-
-.navbar-toggler {
+  .navbar-toggler {
   border: none;
-  background: #007456 ;
+  background-color: #007456;
   border-radius: 8px;
-  padding: 8px 12px;
-  box-shadow: 0 2px 8px rgba(0,116,86,0.08);
-
+  padding: 8px 10px;
+  box-shadow: 0 2px 6px rgba(0, 116, 86, 0.1);
 }
+
 .navbar-toggler i {
-  color: #fff;
-  font-size: 28px;
-  transition: color 0.3s;
-}
-.menuBOx {
-  display: flex;
-  justify-content: center;
- text-align: center;
-	border-radius: 10px;
-	padding: 0px 0px;
-	margin: 15px 0px;
-	background: #fa8c00;
+  color: #ffffff;
+  font-size: 20px;
 }
 
-  .nav-link {
-	width: 100%;
-	color: #FFFFFF !important;
-	margin: 5px 0;
-	font-weight: 600;
-	font-size: 16px;
-	border-radius: 8px;
-	padding: 10px 0px !important;
+.navbar-toggler:focus {
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px rgba(250, 140, 0, 0.15);
+  outline: none;
 }
 
-  .navbar-toggler:focus {
-    background: #FFFFFF;
-    box-shadow: 0 4px 16px rgba(250,140,0,0.12);
-    outline: none;
-  }
-  .navbar-toggler:active i,
-  .navbar-toggler:focus i {
-    color: #fa8c00;
+.navbar-toggler:active i,
+.navbar-toggler:focus i {
+  color: #fa8c00;
+}
+
+  .navbar-collapse {
+    text-align: center;
+    padding-top: 10px;
   }
 
+  .navbar-nav {
+    background-color: #fa8c00;
+    border-radius: 12px;
+    margin: 20px 0 !important;
+    padding: 10px 0;
+  }
 
+.nav-link {
+  display: block;
+  width: 100%;
+  color: #ffffff !important;
+  margin: 4px 0;
+  font-weight: 600;
+  font-size: 15px; 
+  border-radius: 10px;
+  padding: 10px 0 !important; 
+  transition: background-color 0.3s ease;
+}
+
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+
+
+  /*? Navbar Responsive design End */
+   /* ?Banner Part Responsive Start  */
+ #bannerPart {
+    padding-top: 0;
+  }
+
+  .bannerContent {
+    padding: 20px 12px;
+    text-align: center;
+  }
+
+  .formControl {
+    width: 95%;
+    max-width: 460px;
+    margin: 0 auto;
+    height: 42px;
+    font-size: 14px;
+  }
+
+  .textLeft {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .textLeft h1 {
+    font-size: 20px;      /* ফন্ট একটু বড় হবে */
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+  }
+
+  .textLeft h6 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+  }
+
+  /* বাটন */
+  .textLeft .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+
+  .textLeft .button {
+    display: inline-block;
+    min-width: 100px;
+    font-size: 13px;
+    padding: 8px 0;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .inputBox {
+    padding: 12px 0;
+  }
+
+  .searchDiv {
+    width: 34px;
+    height: 34px;
+    right: 6px;
+    top: 34px;
+  }
+
+  .inputBox input::placeholder {
+    font-size: 12px;
+  }
+
+  .forPosition {
+    font-size: 15px;
+  }
+
+  .imgPadding {
+    margin-top: 40px;
+  }
+
+  .imgOverlay {
+    top: 20%;
+    padding: 6px 12px;
+    width: 100px;
+  }
+
+  .imgOverlaySecond {
+    position: absolute;
+    top: 58%;
+    right: 0;
+  }
+
+  .imgOverlay h5 {
+    font-size: 9px;
+    font-weight: 600;
+    color: #242b36;
+    line-height: 12px;
+  }
+
+  .tag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+
+  .tagBtn {
+    margin-top: 10px;
+    padding: 6px 8px;
+    font-size: 12px;
+    border-radius: 6px;
+    letter-spacing: 0.2px;
+  }
 
   /* ?Banner Part Responsive End  */
 
@@ -918,45 +1053,59 @@
 /*? Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 320px) and (max-width: 575.98px) {
   /*? Navbar Responsive design start */
- .navbar-toggler {
+.navbar-toggler {
   border: none;
-  background: #007456 ;
+  background-color: #007456;
   border-radius: 8px;
-  padding: 8px 12px;
-  box-shadow: 0 2px 8px rgba(0,116,86,0.08);
+  padding: 8px 10px;
+  box-shadow: 0 2px 6px rgba(0, 116, 86, 0.1);
 }
+
 .navbar-toggler i {
-  color: #fff;
+  color: #ffffff;
   font-size: 20px;
-  transition: color 0.3s;
 }
-.menuBOx {
-  display: flex;
-  justify-content: center;
- text-align: center;
-	border-radius: 10px;
-	padding: 0px 0px;
-	margin: 15px 0px;
-	background: #fa8c00;
+
+.navbar-toggler:focus {
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px rgba(250, 140, 0, 0.15);
+  outline: none;
 }
-  .nav-link {
-	width: 100%;
-	color: #FFFFFF !important;
-	margin: 5px 0;
-	font-weight: 600;
-	font-size: 16px;
-	border-radius: 8px;
-	padding: 10px 0px !important;
+
+.navbar-toggler:active i,
+.navbar-toggler:focus i {
+  color: #fa8c00;
 }
-  .navbar-toggler:focus {
-    background: #FFFFFF;
-    box-shadow: 0 4px 16px rgba(250,140,0,0.12);
-    outline: none;
+
+  .navbar-collapse {
+    text-align: center;
+    padding-top: 10px;
   }
-  .navbar-toggler:active i,
-  .navbar-toggler:focus i {
-    color: #fa8c00;
+
+  .navbar-nav {
+    background-color: #fa8c00;
+    border-radius: 12px;
+    margin: 20px 0 !important;
+    padding: 10px 0;
   }
+
+.nav-link {
+  display: block;
+  width: 100%;
+  color: #ffffff !important;
+  margin: 4px 0;
+  font-weight: 600;
+  font-size: 15px; 
+  border-radius: 10px;
+  padding: 10px 0 !important; 
+  transition: background-color 0.3s ease;
+}
+
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+
+
   /*? Navbar Responsive design End */
 
 
@@ -973,8 +1122,8 @@
   }
   .formControl {
     width: 100%;
-    max-width: 98vw;
-    margin: 0 auto;
+    /* max-width: 98vw; */
+    /* margin: 0 auto; */
     height: 44px;
     font-size: 14px;
   }

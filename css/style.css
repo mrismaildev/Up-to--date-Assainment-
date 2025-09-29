@@ -35,6 +35,8 @@ body {
 
 /* ?navber Part Start */
 
+
+
 .nav-link {
   margin: 25px 15px;
   font-size: 14px;
@@ -74,12 +76,12 @@ a.mCb i {
   color: #ffffff;
   padding-left: 10px;
 }
+
 /* ?Naveber Part End */
 
 /* ?Banner Part Start */
 #bannerPart {
-  padding-top: 20px;
-  padding-bottom: 46px;
+ 
   background: linear-gradient(
     296deg,
     rgba(255, 245, 230, 1) 0%,
@@ -167,8 +169,7 @@ a.mCb i {
   cursor: pointer;
 }
 .bannerContent {
-  padding-top: 96px;
-  padding-bottom: 97px;
+  padding-bottom:120px;
 }
 .imgPadding {
   position: relative;
@@ -522,7 +523,7 @@ background-color: #FA8C00;
 }
 .backOverlay {
   position: absolute;
-  width: 1283px;
+  width: 954px;
   padding: 362px 0;
   background: #f2f8f7;
   z-index: -1;
@@ -584,7 +585,10 @@ background-color: #FA8C00;
 /* ?Freelancer thought */
 .freelancerThought {
   margin-top: 220px;
-  position: relative;
+  
+}
+.resPonImg{
+position: relative;
 }
 .rectAngelPosition {
   position: absolute;
